@@ -5,10 +5,10 @@
 package features.login.api;
 
 import features.login.dao.LoginDao;
-import features.login.dto.LoginReq;
-import features.login.dto.LoginRes;
-import features.login.dto.UserDetailsReq;
-import features.login.dto.UserDetailsRes;
+import features.login.dto.req.LoginReq;
+import features.login.dto.res.LoginRes;
+import features.login.dto.req.UserDetailsReq;
+import features.login.dto.res.UserDetailsRes;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
