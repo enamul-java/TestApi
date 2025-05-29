@@ -18,12 +18,12 @@ public class LoginDao {
     public LoginRes doLogin(LoginReq req) {
         LoginRes res = new LoginRes();
         try {
-            
+
             if (req.getUserName().equals("Wasit")) {
                 if (req.getPassword().equals("12345")) {
                     res.setToken("321"); 
                     res.setOutCode("0");
-                    res.setOutMessage("Success!"); 
+                    res.setOutMessage("Success!");
                 } else {
                     res.setOutCode("1");
                     res.setOutMessage("Invalid Password!");
